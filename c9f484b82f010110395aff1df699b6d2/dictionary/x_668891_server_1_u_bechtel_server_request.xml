@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="u_bechtel_server_request" max_length="40" name="x_668891_server_1_u_bechtel_server_request" sizeclass="0" type="collection">
+        <element label="Reason this server is not being placed in the Application Zone- New PSN Environm" max_length="40" name="reason_this_server_is_not_being_placed_in_the_application_zone_new_psn_environmu" type="string"/>
+        <element label="Additional Drive Description" max_length="40" name="u_additional_drive_description" type="string"/>
+        <element label="Additional Drive Description" max_length="40" name="u_additional_drive_description_1" type="string"/>
+        <element label="Additional Drive Description" max_length="40" name="u_additional_drive_description_2" type="string"/>
+        <element label="Additional Drive Description" max_length="40" name="u_additional_drive_description_3" type="string"/>
+        <element label="Additional Drive Info" max_length="40" name="u_additional_drive_info" type="string"/>
+        <element label="Additional Information" max_length="40" name="u_additional_information" type="string"/>
+        <element label="Administrator Accounts to be added" max_length="4000" name="u_administrator_account_to_be_added" type="glide_list"/>
+        <element label="Administrator Accounts to be added" max_length="40" name="u_admin_account_to_add" type="string"/>
+        <element label="Administrator Group Accounts to be added" max_length="4000" name="u_admin_grp_accounts_to_be_added" type="glide_list"/>
+        <element label="Administrator Group Accounts to be added" max_length="40" name="u_admin_grp_acc_to_add" type="string"/>
+        <element choice="3" label="Backup required?" max_length="40" name="u_agent_backup_needed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Amount of CPU" max_length="40" name="u_amount_of_cpu" type="string"/>
+        <element label="Amount of RAM" max_length="40" name="u_amount_of_ram" type="string"/>
+        <element label="Appliance Path" max_length="40" name="u_appliance_path" type="string"/>
+        <element label="Application Dependencies" max_length="40" name="u_application_dependencies" type="string"/>
+        <element label="Application Name" max_length="40" name="u_application_name" type="string"/>
+        <element choice="1" label="Application Type" max_length="40" name="u_application_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application" sequence="10" value="application"/>
+                <element inactive_on_update="false" label="BSAP" sequence="20" value="bsap"/>
+                <element inactive_on_update="false" label="File storage" sequence="30" value="file_storage"/>
+                <element inactive_on_update="false" label="Infrastructure - Application Router" sequence="40" value="infrastructure_application_router"/>
+            </choice>
+        </element>
+        <element label="Business Unit" max_length="32" name="u_business_unit" reference="business_unit" type="reference"/>
+        <element label="Compute Cost" max_length="40" name="u_compute_cost" type="string"/>
+        <element label="Content Manager" max_length="32" name="u_content_manager" reference="sys_user" type="reference"/>
+        <element choice="1" label="CPU" max_length="40" name="u_cpu" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="10" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="20" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="30" value="2"/>
+                <element inactive_on_update="false" label="4" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="6" sequence="50" value="6"/>
+                <element inactive_on_update="false" label="8" sequence="60" value="8"/>
+                <element inactive_on_update="false" label="12" sequence="70" value="12"/>
+                <element inactive_on_update="false" label="16" sequence="80" value="16"/>
+                <element inactive_on_update="false" label="20" sequence="90" value="20"/>
+                <element inactive_on_update="false" label="24" sequence="100" value="24"/>
+                <element inactive_on_update="false" label="Other" sequence="110" value="Other"/>
+            </choice>
+        </element>
+        <element label="C Drive Size (GBs)" max_length="40" name="u_c_drive_size" type="string"/>
+        <element choice="1" label="Database Client" max_length="40" name="u_database_client" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SQL Server 2005" sequence="10" value="sql_server_2005"/>
+                <element inactive_on_update="false" label="SQL Server 2008 (Restricted)" sequence="20" value="sql_server_2008_restricted"/>
+                <element inactive_on_update="false" label="SQL Server 2008 R2 (Restricted)" sequence="30" value="sql_server_2008_r2_restricted"/>
+                <element inactive_on_update="false" label="Oracle 10g (Restricted)" sequence="40" value="oracle_10g_restricted"/>
+                <element inactive_on_update="false" label="MySQL (Restricted)" sequence="50" value="mysql_restricted"/>
+                <element inactive_on_update="false" label="Oracle 11g R2 (Restricted)" sequence="60" value="oracle_11g_r2_restricted"/>
+                <element inactive_on_update="false" label="Oracle 12c" sequence="70" value="oracle_12c"/>
+                <element inactive_on_update="false" label="Oracle 12c Rel 2" sequence="80" value="oracle_12c_rel_2"/>
+                <element inactive_on_update="false" label="Oracle 18c" sequence="90" value="oracle_18c"/>
+                <element inactive_on_update="false" label="Oracle 19c" sequence="100" value="oracle_19c"/>
+                <element inactive_on_update="false" label="SQL Server 2012" sequence="110" value="sql_server_2012"/>
+                <element inactive_on_update="false" label="SQL Server 2014" sequence="120" value="sql_server_2014"/>
+                <element inactive_on_update="false" label="SQL Server 2016" sequence="130" value="sql_server_2016"/>
+                <element inactive_on_update="false" label="SQL Server 2017" sequence="140" value="sql_server_2017"/>
+            </choice>
+        </element>
+        <element choice="1" label="Database Client Environment" max_length="40" name="u_database_client_environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="32 bit" sequence="10" value="bit"/>
+                <element inactive_on_update="false" label="64 bit" sequence="20" value="bit"/>
+                <element inactive_on_update="false" label="Both" sequence="30" value="both"/>
+            </choice>
+        </element>
+        <element choice="1" label="Database Client Type" max_length="40" name="u_database_client_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="BBS" sequence="10" value="bbs"/>
+                <element inactive_on_update="false" label="BBS-SAP" sequence="20" value="bbs_sap"/>
+                <element inactive_on_update="false" label="Corporate" sequence="30" value="corporate"/>
+            </choice>
+        </element>
+        <element choice="1" label="Database Server" max_length="40" name="u_database_server" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sql Server 2014" sequence="10" value="sql_server_2014"/>
+                <element inactive_on_update="false" label="Sql Server 2005" sequence="20" value="sql_server_2005"/>
+                <element inactive_on_update="false" label="SQL Server 2008 (Restricted)" sequence="30" value="sql_server_2008_restricted"/>
+                <element inactive_on_update="false" label="SQL Server 2008 R2 (Restricted)" sequence="40" value="sql_server_2008_r2_restricted"/>
+                <element inactive_on_update="false" label="MySQL (Restricted)" sequence="50" value="mysql_restricted"/>
+                <element inactive_on_update="false" label="Oracle 10g (Restricted)" sequence="60" value="oracle_10g_restricted"/>
+                <element inactive_on_update="false" label="Oracle 11g R2 (Restricted)" sequence="70" value="oracle_11g_r2_restricted"/>
+                <element inactive_on_update="false" label="Oracle 12C" sequence="80" value="oracle_12c"/>
+                <element inactive_on_update="false" label="Oracle 12c Rel 2" sequence="90" value="oracle_12c_rel_2"/>
+                <element inactive_on_update="false" label="Oracle 18c" sequence="100" value="oracle_18c"/>
+                <element inactive_on_update="false" label="Oracle 19c" sequence="110" value="oracle_19c"/>
+                <element inactive_on_update="false" label="SQL Server 2012" sequence="120" value="sql_server_2012"/>
+                <element inactive_on_update="false" label="SQL Server 2014" sequence="130" value="sql_server_2014"/>
+                <element inactive_on_update="false" label="SQL Server 2016" sequence="140" value="sql_server_2016"/>
+                <element inactive_on_update="false" label="SQL Server 2017" sequence="150" value="sql_server_2017"/>
+            </choice>
+        </element>
+        <element choice="1" label="Database Server Type" max_length="40" name="u_database_server_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="BBS" sequence="10" value="bbs"/>
+                <element inactive_on_update="false" label="Corporate" sequence="20" value="corporate"/>
+                <element inactive_on_update="false" label="BBS-SAP" sequence="30" value="bbs_sap"/>
+                <element inactive_on_update="false" label="Corporate" sequence="40" value="corporate"/>
+            </choice>
+        </element>
+        <element choice="1" label="Data Center" max_length="40" name="u_data_center" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Amazon Web Services" sequence="10" value="amazon_web_services"/>
+                <element inactive_on_update="false" label="Ashburn" sequence="20" value="ashburn"/>
+                <element inactive_on_update="false" label="Ashburn-NS&amp;E" sequence="30" value="ashburn_ns_e"/>
+                <element inactive_on_update="false" label="Azure" sequence="40" value="azure"/>
+                <element inactive_on_update="false" label="Brisbane" sequence="50" value="brisbane"/>
+                <element inactive_on_update="false" label="Chicago (Restricted)" sequence="60" value="chicago_restricted"/>
+                <element inactive_on_update="false" label="Chicago-NS&amp;E" sequence="70" value="chicago_ns_e"/>
+                <element inactive_on_update="false" label="Lab" sequence="80" value="lab"/>
+                <element inactive_on_update="false" label="London INX" sequence="90" value="london_inx"/>
+                <element inactive_on_update="false" label="London Office (Restricted)" sequence="100" value="london_office_restricted"/>
+                <element inactive_on_update="false" label="New Delhi" sequence="110" value="new_delhi"/>
+                <element inactive_on_update="false" label="Project/Job Site" sequence="120" value="project_job_site"/>
+                <element inactive_on_update="false" label="Riyadh" sequence="130" value="riyadh"/>
+                <element inactive_on_update="false" label="San Francisco rSNAP" sequence="140" value="san_francisco_rsnap"/>
+                <element inactive_on_update="false" label="Santiago" sequence="150" value="santiago"/>
+                <element inactive_on_update="false" label="Singapore" sequence="160" value="singapore"/>
+            </choice>
+        </element>
+        <element choice="1" label="Azure Location" max_length="40" name="u_data_center_sub_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="5177 Richmond" sequence="10" value="richmond"/>
+                <element inactive_on_update="false" label="Cyrus One" sequence="20" value="cyrus_one"/>
+                <element inactive_on_update="false" label="Cyrus One" sequence="30" value="cyrus_one"/>
+                <element inactive_on_update="false" label="Post Oak" sequence="40" value="post_oak"/>
+                <element inactive_on_update="false" label="East US" sequence="50" value="east_us"/>
+                <element inactive_on_update="false" label="Central US" sequence="60" value="central_us"/>
+                <element inactive_on_update="false" label="UK South" sequence="70" value="uk_south"/>
+                <element inactive_on_update="false" label="Southeast Asia" sequence="80" value="southeast_asia"/>
+            </choice>
+        </element>
+        <element choice="1" label="Decommission server by expiration date?" max_length="40" name="u_decommission_server_by_expiration_date" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Default Gateway" max_length="40" name="u_default_gateway" type="string"/>
+        <element label="Default Job Number" max_length="40" name="u_default_job_number" type="string"/>
+        <element label="Default Sub Job Number" max_length="40" name="u_default_subjob_number" type="string"/>
+        <element choice="1" label="Domain" max_length="40" name="u_domain" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IAMERS - Internal" sequence="10" value="iamers_internal"/>
+                <element inactive_on_update="false" label="IBECHTEL - Internal" sequence="20" value="ibechtel_internal"/>
+                <element inactive_on_update="false" label="VBECHTEL - Development" sequence="30" value="vbechtel_development"/>
+                <element inactive_on_update="false" label="VBECPSN - Development" sequence="40" value="vbecpsn_development"/>
+                <element inactive_on_update="false" label="IEAMS (Restricted)" sequence="50" value="ieams_restricted"/>
+                <element inactive_on_update="false" label="IAPAC (Restricted)" sequence="60" value="iapac_restricted"/>
+                <element inactive_on_update="false" label="BECPSN (Restricted)" sequence="70" value="becpsn_restricted"/>
+            </choice>
+        </element>
+        <element label="Drive Size" max_length="40" name="u_drive_size_1" type="string"/>
+        <element label="Drive Size" max_length="40" name="u_drive_size_2" type="string"/>
+        <element label="Drive Size" max_length="40" name="u_drive_size_3" type="string"/>
+        <element label="Drive Size" max_length="40" name="u_drive_size_4" type="string"/>
+        <element label="D Drive?" max_length="40" name="u_d_drive_required" type="boolean"/>
+        <element label="D Drive Size (GBs)" max_length="40" name="u_d_drive_size" type="string"/>
+        <element choice="1" label="Environment" max_length="40" name="u_environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Development" sequence="10" value="development"/>
+                <element inactive_on_update="false" label="Production" sequence="20" value="production"/>
+                <element inactive_on_update="false" label="QA" sequence="30" value="qa"/>
+                <element inactive_on_update="false" label="Staging" sequence="40" value="staging"/>
+                <element inactive_on_update="false" label="Test" sequence="50" value="test"/>
+                <element inactive_on_update="false" label="Sandbox" sequence="60" value="sandbox"/>
+            </choice>
+        </element>
+        <element label="Existing Server Name" max_length="32" name="u_existing_server" reference="cmdb_ci" type="reference"/>
+        <element label="E Drive?" max_length="40" name="u_e_drive_required" type="boolean"/>
+        <element label="E Drive Size (GBs)" max_length="40" name="u_e_drive_size_gbs" type="string"/>
+        <element label="F Drive?" max_length="40" name="u_f_drive_required" type="boolean"/>
+        <element label="F Drive Size (GBs)" max_length="40" name="u_f_drive_size" type="string"/>
+        <element label="Server Description" max_length="40" name="u_gemini_server_description" type="string"/>
+        <element label="G Drive?" max_length="40" name="u_g_drive_required" type="boolean"/>
+        <element label="G Drive Size (GBs)" max_length="40" name="u_g_drive_size" type="string"/>
+        <element label="IIS?" max_length="40" name="u_iis_required" type="boolean"/>
+        <element label="IP Address" max_length="40" name="u_ip_address" type="string"/>
+        <element choice="1" label="Is a specific server name required" max_length="40" name="u_is_a_specific_server_name_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="Job Number" max_length="40" name="u_job_no" type="string"/>
+        <element label="Linux OS Drive Size" max_length="40" name="u_linux_os_drive_size" type="string"/>
+        <element label="Mount Point" max_length="40" name="u_mount_point" type="string"/>
+        <element label="Mount Point" max_length="40" name="u_mount_point_2" type="string"/>
+        <element label="Mount Point" max_length="40" name="u_mount_point_3" type="string"/>
+        <element label="Mount Point" max_length="40" name="u_mount_point_4" type="string"/>
+        <element choice="1" label="Network Zone" max_length="40" name="u_network_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application Zone" sequence="10" value="application_zone"/>
+                <element inactive_on_update="false" label="IBECHTEL - Internal" sequence="20" value="ibechtel_internal"/>
+                <element inactive_on_update="false" label="Azure Private Zone" sequence="30" value="azure_private_zone"/>
+                <element inactive_on_update="false" label="PSN Core" sequence="40" value="psn_core"/>
+                <element inactive_on_update="false" label="Bechtel Internal Zone - Legacy Subnets (Requires Approval)" sequence="50" value="bechtel_internal_zone_legacy_subnets_requires_approval"/>
+                <element inactive_on_update="false" label="PSN DMZ - Internet Accessible" sequence="60" value="psn_dmz_internet_accessible"/>
+                <element inactive_on_update="false" label="Application Zone - New PSN Environment" sequence="70" value="application_zone_new_psn_environment"/>
+                <element inactive_on_update="false" label="Other" sequence="80" value="other"/>
+                <element inactive_on_update="false" label="PSN-Core Zone - Legacy Subnets (Requires Approval)" sequence="90" value="psn_core_zone_legacy_subnets_requires_approval"/>
+                <element inactive_on_update="false" label="User Zone - New PSN Environment" sequence="100" value="user_zone_new_psn_environment"/>
+                <element inactive_on_update="false" label="PSN-DMZ Zone - Accessible from Internet" sequence="110" value="psn_dmz_zone_accessible_from_internet"/>
+                <element inactive_on_update="false" label="Vault Zone - New PSN Environment" sequence="120" value="vault_zone_new_psn_environment"/>
+                <element inactive_on_update="false" label="Sec-Inf Zone - Security Appliances Only" sequence="130" value="sec_inf_zone_security_appliances_only"/>
+                <element inactive_on_update="false" label="Virtual Machine Host Zone - VLAN14" sequence="140" value="virtual_machine_host_zone_vlan14"/>
+                <element inactive_on_update="false" label="Security Infrastructure Zone - VLAN124" sequence="150" value="security_infrastructure_zone_vlan124"/>
+                <element inactive_on_update="false" label="User Zone" sequence="160" value="user_zone"/>
+                <element inactive_on_update="false" label="Application Development Zone - New PSN Environment" sequence="170" value="application_development_zone_new_psn_environment"/>
+                <element inactive_on_update="false" label="User Zone - Exchange" sequence="180" value="user_zone_exchange"/>
+                <element inactive_on_update="false" label="Application Staging Zone - New PSN Environment" sequence="190" value="application_staging_zone_new_psn_environment"/>
+                <element inactive_on_update="false" label="User Zone - Orion" sequence="200" value="user_zone_orion"/>
+                <element inactive_on_update="false" label="Application Zone - XenApp" sequence="210" value="application_zone_xenapp"/>
+                <element inactive_on_update="false" label="User Zone - XenApp" sequence="220" value="user_zone_xenapp"/>
+                <element inactive_on_update="false" label="Vault Zone - L1 Data (for other Vault zones, select &quot;Other&quot;)" sequence="230" value="vault_zone_l1_data_for_other_vault_zones_select_other"/>
+                <element inactive_on_update="false" label="VM Host Zone" sequence="240" value="vm_host_zone"/>
+            </choice>
+        </element>
+        <element label="NS&amp;E Server Request" max_length="40" name="u_nse_server_request" type="boolean"/>
+        <element choice="1" label="Operating System" max_length="40" name="u_operating_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ESXi 5.x (Restricted)" sequence="10" value="esxi_5_x_restricted"/>
+                <element inactive_on_update="false" label="ESXi 6.x (Restricted)" sequence="20" value="esxi_6_x_restricted"/>
+                <element inactive_on_update="false" label="Hyper-V 2016 (Restricted)" sequence="30" value="hyper_v_2016_restricted"/>
+                <element inactive_on_update="false" label="Oracle Linux 7.x" sequence="40" value="oracle_linux_7_x"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux 6.x (Restricted)" sequence="50" value="red_hat_enterprise_linux_6_x_restricted"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux 7.x (Restricted)" sequence="60" value="red_hat_enterprise_linux_7_x_restricted"/>
+                <element inactive_on_update="false" label="Vendor-Supplied Appliance" sequence="70" value="vendor_supplied_appliance"/>
+                <element inactive_on_update="false" label="Windows 2008 Enterprise R2 (Restricted)" sequence="80" value="windows_2008_enterprise_r2_restricted"/>
+                <element inactive_on_update="false" label="Windows 2008 Standard R2 (Restricted)" sequence="90" value="windows_2008_standard_r2_restricted"/>
+                <element inactive_on_update="false" label="Windows 2012 Standard R2 (Restricted)" sequence="100" value="windows_2012_standard_r2_restricted"/>
+                <element inactive_on_update="false" label="Windows 2016 Standard" sequence="110" value="windows_2016_standard"/>
+                <element inactive_on_update="false" label="Windows 2019 Standard" sequence="120" value="windows_2019_standard"/>
+                <element inactive_on_update="false" label="VMware ESXi 6.5.0 (Restricted)" sequence="130" value="vmware_esxi_6_5_0_restricted"/>
+            </choice>
+        </element>
+        <element label="Other Network Zone" max_length="40" name="u_other_network_zone" type="string"/>
+        <element label="Reason a non-production server is outside of Chicago Data Center or ..." max_length="40" name="u_out_in_side_of_chicago" type="string"/>
+        <element label="Project Name" max_length="40" name="u_project_name" type="string"/>
+        <element label="Project/ Job Site Name" max_length="40" name="u_project_site_name" type="string"/>
+        <element label="P Drive Size (GBs)" max_length="40" name="u_p_drive_size" type="string"/>
+        <element choice="1" label="RAM" max_length="40" name="u_ram" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="10" value="other"/>
+                <element inactive_on_update="false" label="1 GB" sequence="20" value="gb"/>
+                <element inactive_on_update="false" label="2 GB" sequence="30" value="gb"/>
+                <element inactive_on_update="false" label="4 GB" sequence="40" value="gb"/>
+                <element inactive_on_update="false" label="6 GB" sequence="50" value="gb"/>
+                <element inactive_on_update="false" label="8 GB" sequence="60" value="gb"/>
+                <element inactive_on_update="false" label="12 GB" sequence="70" value="gb"/>
+                <element inactive_on_update="false" label="16 GB" sequence="80" value="gb"/>
+                <element inactive_on_update="false" label="20 GB" sequence="90" value="gb"/>
+                <element inactive_on_update="false" label="24 GB" sequence="100" value="gb"/>
+                <element inactive_on_update="false" label="32 GB" sequence="110" value="gb"/>
+                <element inactive_on_update="false" label="48 GB" sequence="120" value="gb"/>
+                <element inactive_on_update="false" label="64 GB" sequence="130" value="gb"/>
+            </choice>
+        </element>
+        <element label="Reason for requesting Restricted Domain" max_length="40" name="u_reason_for_requesting_restricted_domain" type="string"/>
+        <element label="Reason for requesting Windows 2008 server" max_length="40" name="u_reason_for_win2008_server" type="string"/>
+        <element label="Reason more than 8 CPU are required" max_length="40" name="u_reason_more_than_8cpu" type="string"/>
+        <element label="Reason more than 8GB of RAM are required" max_length="40" name="u_reason_more_than_8gb_ram" type="string"/>
+        <element label="Replacement of Existing Server" max_length="40" name="u_replacement_server" type="boolean"/>
+        <element label="Request on Behalf of" max_length="32" name="u_request_on_behalf_of" reference="sys_user" type="reference"/>
+        <element label="Select Request to copy" max_length="32" name="u_request_to_copy" reference="x_668891_server_1_u_bechtel_server_request" type="reference"/>
+        <element label="Required By" max_length="40" name="u_required_by" type="glide_date"/>
+        <element choice="1" label="Security Level" max_length="40" name="u_security_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1-Strictly Confidential" sequence="10" value="strictly_confidential"/>
+                <element inactive_on_update="false" label="2-Confidential" sequence="20" value="confidential"/>
+                <element inactive_on_update="false" label="3-Bechtel Public" sequence="30" value="bechtel_public"/>
+                <element inactive_on_update="false" label="4-Public" sequence="40" value="public"/>
+            </choice>
+        </element>
+        <element choice="1" label="Server Class" max_length="40" name="u_server_class" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Class 1 - Critical - Immediate Response on 24X7 Basis" sequence="10" value="class_1_critical_immediate_response_on_24x7_basis"/>
+                <element inactive_on_update="false" label="Class 2 - Large Impact - Immediate Response during Business Hours" sequence="20" value="class_2_large_impact_immediate_response_during_business_hours"/>
+                <element inactive_on_update="false" label="Class 3 - Small Impact - Monitor Via E-mail Only" sequence="30" value="class_3_small_impact_monitor_via_e_mail_only"/>
+                <element inactive_on_update="false" label="Class 4 - Other - Not Monitored" sequence="40" value="class_4_other_not_monitored"/>
+            </choice>
+        </element>
+        <element label="Server Expiration Date" max_length="40" name="u_server_expiration_date" type="glide_date"/>
+        <element choice="1" label="Used For" max_length="40" name="u_server_identification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="APM Desktop" sequence="10" value="apm_desktop"/>
+                <element inactive_on_update="false" label="APM Servers" sequence="20" value="apm_servers"/>
+                <element inactive_on_update="false" label="Application" sequence="30" value="application"/>
+                <element inactive_on_update="false" label="Database" sequence="40" value="database"/>
+                <element inactive_on_update="false" label="Exchange" sequence="50" value="exchange"/>
+                <element inactive_on_update="false" label="Infrastructure" sequence="60" value="infrastructure"/>
+                <element inactive_on_update="false" label="Lync" sequence="70" value="lync"/>
+                <element inactive_on_update="false" label="O/A" sequence="80" value="o_a"/>
+                <element inactive_on_update="false" label="Web Content" sequence="90" value="web_content"/>
+                <element inactive_on_update="false" label="XenApp" sequence="100" value="xenapp"/>
+            </choice>
+        </element>
+        <element label="Server Name" max_length="40" name="u_server_name" type="string"/>
+        <element label="Server Owner" max_length="4000" name="u_server_owner" type="glide_list"/>
+        <element choice="1" label="Is this server required for a software application release" max_length="40" name="u_server_required_for_sw" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Server Type" max_length="40" name="u_server_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Virtual" sequence="10" value="virtual"/>
+                <element inactive_on_update="false" label="Virtual Host" sequence="20" value="virtual_host"/>
+                <element inactive_on_update="false" label="Physical (Requires Approval)" sequence="30" value="physical_requires_approval"/>
+            </choice>
+        </element>
+        <element choice="1" label="Server Usage" max_length="40" name="u_server_usage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Shared" sequence="10" value="shared"/>
+                <element inactive_on_update="false" label="Dedicated" sequence="20" value="dedicated"/>
+            </choice>
+        </element>
+        <element label="SMTP?" max_length="40" name="u_smtp_required" type="boolean"/>
+        <element label="Static IP" max_length="40" name="u_static_ip" type="boolean"/>
+        <element label="Storage Cost" max_length="40" name="u_storage_cost" type="string"/>
+        <element label="Subnet Mask" max_length="40" name="u_subnet_mask" type="string"/>
+        <element label="Support Contact" max_length="32" name="u_support_contact" reference="sys_user" type="reference"/>
+        <element choice="1" label="Type of Additional Storage" max_length="40" name="u_type_of_storage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard" sequence="10" value="standard"/>
+                <element inactive_on_update="false" label="Premium" sequence="20" value="premium"/>
+            </choice>
+        </element>
+        <element label="Visited States" max_length="40" name="u_visited_state" type="string"/>
+        <element label="VLAN" max_length="40" name="u_vlan" type="string"/>
+        <element label="Reason this server is not being placed in the Application Zone- New PSN Environm" max_length="40" name="u_why_server_not_in_app_zone" type="string"/>
+        <element label="Reason this server is not being placed in the BECPSN Domain" max_length="40" name="u_why_server_not_in_becpsn" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_database_client" table="x_668891_server_1_u_bechtel_server_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_database_client</element>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:25</sys_created_on>
+            <sys_id>c85fb0c12f410110395aff1df699b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_database_client</sys_name>
+            <sys_package display_value="Server Request" source="x_668891_server_1">c9f484b82f010110395aff1df699b6d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Server Request">c9f484b82f010110395aff1df699b6d2</sys_scope>
+            <sys_update_name>sys_choice_x_668891_server_1_u_bechtel_server_request_u_database_client</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2005</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>445fb0c12f410110395aff1df699b6c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:24</sys_updated_on>
+            <value>sql_server_2005</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2008 (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>105fb0c12f410110395aff1df699b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:25</sys_updated_on>
+            <value>sql_server_2008_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2008 R2 (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c5fb0c12f410110395aff1df699b6c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:25</sys_updated_on>
+            <value>sql_server_2008_r2_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle 10g (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>505fb0c12f410110395aff1df699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:25</sys_updated_on>
+            <value>oracle_10g_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MySQL (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>945fb0c12f410110395aff1df699b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:26</sys_updated_on>
+            <value>mysql_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle 11g R2 (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a85fb0c12f410110395aff1df699b6d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:26</sys_updated_on>
+            <value>oracle_11g_r2_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle 12c</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>685ff0c12f410110395aff1df699b61a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:26</sys_updated_on>
+            <value>oracle_12c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle 12c Rel 2</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e05fb0c12f410110395aff1df699b6da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:26</sys_updated_on>
+            <value>oracle_12c_rel_2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle 18c</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a05ff0c12f410110395aff1df699b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:26</sys_updated_on>
+            <value>oracle_18c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle 19c</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a45ff0c12f410110395aff1df699b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:27</sys_updated_on>
+            <value>oracle_19c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2012</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e85ff0c12f410110395aff1df699b623</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:27</sys_updated_on>
+            <value>sql_server_2012</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2014</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc5ff0c12f410110395aff1df699b62d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:27</sys_updated_on>
+            <value>sql_server_2014</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2016</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f85ff0c12f410110395aff1df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:27</sys_updated_on>
+            <value>sql_server_2016</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_database_client</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SQL Server 2017</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b45ff0c12f410110395aff1df699b64b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:27</sys_updated_on>
+            <value>sql_server_2017</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

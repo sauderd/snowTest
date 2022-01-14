@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_server_identification" table="x_668891_server_1_u_bechtel_server_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_server_identification</element>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_id>44f091012f810110395aff1df699b64a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_server_identification</sys_name>
+            <sys_package display_value="Server Request" source="x_668891_server_1">c9f484b82f010110395aff1df699b6d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Server Request">c9f484b82f010110395aff1df699b6d2</sys_scope>
+            <sys_update_name>sys_choice_x_668891_server_1_u_bechtel_server_request_u_server_identification</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>APM Desktop</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88f091012f810110395aff1df699b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+            <value>apm_desktop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>APM Servers</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cf091012f810110395aff1df699b675</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:25</sys_updated_on>
+            <value>apm_servers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0f091012f810110395aff1df699b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:25</sys_updated_on>
+            <value>application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f091012f810110395aff1df699b67a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:25</sys_updated_on>
+            <value>database</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exchange</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18f091012f810110395aff1df699b684</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:25</sys_updated_on>
+            <value>exchange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infrastructure</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cf091012f810110395aff1df699b67e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:25</sys_updated_on>
+            <value>infrastructure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lync</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50f091012f810110395aff1df699b689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:26</sys_updated_on>
+            <value>lync</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>O/A</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0f091012f810110395aff1df699b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:26</sys_updated_on>
+            <value>o_a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web Content</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94f091012f810110395aff1df699b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:26</sys_updated_on>
+            <value>web_content</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_identification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XenApp</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cf091012f810110395aff1df699b6b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:26</sys_updated_on>
+            <value>xenapp</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

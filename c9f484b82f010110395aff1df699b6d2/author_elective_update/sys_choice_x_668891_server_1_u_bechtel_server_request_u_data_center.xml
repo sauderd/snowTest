@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_data_center" table="x_668891_server_1_u_bechtel_server_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_data_center</element>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:33</sys_created_on>
+            <sys_id>8a5f34c12f410110395aff1df699b61c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_data_center</sys_name>
+            <sys_package display_value="Server Request" source="x_668891_server_1">c9f484b82f010110395aff1df699b6d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Server Request">c9f484b82f010110395aff1df699b6d2</sys_scope>
+            <sys_update_name>sys_choice_x_668891_server_1_u_bechtel_server_request_u_data_center</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amazon Web Services</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce5f34c12f410110395aff1df699b61b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:33</sys_updated_on>
+            <value>amazon_web_services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ashburn</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a5f34c12f410110395aff1df699b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:33</sys_updated_on>
+            <value>ashburn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ashburn-NS&amp;E</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e5f34c12f410110395aff1df699b645</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:33</sys_updated_on>
+            <value>ashburn_ns_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Azure</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>925f34c12f410110395aff1df699b640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:33</sys_updated_on>
+            <value>azure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brisbane</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>965f34c12f410110395aff1df699b64a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:34</sys_updated_on>
+            <value>brisbane</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chicago (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>925f34c12f410110395aff1df699b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:34</sys_updated_on>
+            <value>chicago_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chicago-NS&amp;E</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee5f34c12f410110395aff1df699b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:34</sys_updated_on>
+            <value>chicago_ns_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lab</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea5f34c12f410110395aff1df699b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:34</sys_updated_on>
+            <value>lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>London INX</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee5f34c12f410110395aff1df699b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:34</sys_updated_on>
+            <value>london_inx</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>London Office (Restricted)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>265f34c12f410110395aff1df699b65a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:35</sys_updated_on>
+            <value>london_office_restricted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Delhi</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a5f34c12f410110395aff1df699b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:35</sys_updated_on>
+            <value>new_delhi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project/Job Site</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>265f34c12f410110395aff1df699b66b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:35</sys_updated_on>
+            <value>project_job_site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Riyadh</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>725f34c12f410110395aff1df699b669</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:35</sys_updated_on>
+            <value>riyadh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Francisco rSNAP</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e5f34c12f410110395aff1df699b66f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:35</sys_updated_on>
+            <value>san_francisco_rsnap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Santiago</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a5f34c12f410110395aff1df699b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:36</sys_updated_on>
+            <value>santiago</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Singapore</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 19:56:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b65f34c12f410110395aff1df699b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 19:56:36</sys_updated_on>
+            <value>singapore</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

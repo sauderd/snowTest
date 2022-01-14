@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_server_class" table="x_668891_server_1_u_bechtel_server_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_server_class</element>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_id>3fe091012f810110395aff1df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_server_class</sys_name>
+            <sys_package display_value="Server Request" source="x_668891_server_1">c9f484b82f010110395aff1df699b6d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Server Request">c9f484b82f010110395aff1df699b6d2</sys_scope>
+            <sys_update_name>sys_choice_x_668891_server_1_u_bechtel_server_request_u_server_class</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 1 - Critical - Immediate Response on 24X7 Basis</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73e091012f810110395aff1df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+            <value>class_1_critical_immediate_response_on_24x7_basis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 2 - Large Impact - Immediate Response during Business Hours</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfe091012f810110395aff1df699b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+            <value>class_2_large_impact_immediate_response_during_business_hours</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 3 - Small Impact - Monitor Via E-mail Only</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73e091012f810110395aff1df699b645</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+            <value>class_3_small_impact_monitor_via_e_mail_only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_server_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 4 - Other - Not Monitored</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4f091012f810110395aff1df699b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:24</sys_updated_on>
+            <value>class_4_other_not_monitored</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
