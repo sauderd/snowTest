@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_network_zone" table="x_668891_server_1_u_bechtel_server_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_network_zone</element>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:13</sys_created_on>
+            <sys_id>59e011012f810110395aff1df699b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_network_zone</sys_name>
+            <sys_package display_value="Server Request" source="x_668891_server_1">c9f484b82f010110395aff1df699b6d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Server Request">c9f484b82f010110395aff1df699b6d2</sys_scope>
+            <sys_update_name>sys_choice_x_668891_server_1_u_bechtel_server_request_u_network_zone</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Zone</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9de011012f810110395aff1df699b6e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:13</sys_updated_on>
+            <value>application_zone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBECHTEL - Internal</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91e011012f810110395aff1df699b6ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:13</sys_updated_on>
+            <value>ibechtel_internal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Azure Private Zone</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5e011012f810110395aff1df699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:14</sys_updated_on>
+            <value>azure_private_zone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSN Core</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9e011012f810110395aff1df699b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:14</sys_updated_on>
+            <value>psn_core</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bechtel Internal Zone - Legacy Subnets (Requires Approval)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5e011012f810110395aff1df699b6f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:14</sys_updated_on>
+            <value>bechtel_internal_zone_legacy_subnets_requires_approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSN DMZ - Internet Accessible</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9e051012f810110395aff1df699b602</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:14</sys_updated_on>
+            <value>psn_dmz_internet_accessible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Zone - New PSN Environment</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e011012f810110395aff1df699b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:14</sys_updated_on>
+            <value>application_zone_new_psn_environment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25e051012f810110395aff1df699b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:15</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSN-Core Zone - Legacy Subnets (Requires Approval)</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e051012f810110395aff1df699b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:15</sys_updated_on>
+            <value>psn_core_zone_legacy_subnets_requires_approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Zone - New PSN Environment</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7de051012f810110395aff1df699b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:15</sys_updated_on>
+            <value>user_zone_new_psn_environment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSN-DMZ Zone - Accessible from Internet</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79e051012f810110395aff1df699b610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:15</sys_updated_on>
+            <value>psn_dmz_zone_accessible_from_internet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vault Zone - New PSN Environment</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7de051012f810110395aff1df699b61c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:15</sys_updated_on>
+            <value>vault_zone_new_psn_environment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sec-Inf Zone - Security Appliances Only</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1e051012f810110395aff1df699b615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:15</sys_updated_on>
+            <value>sec_inf_zone_security_appliances_only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virtual Machine Host Zone - VLAN14</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5e051012f810110395aff1df699b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:16</sys_updated_on>
+            <value>virtual_machine_host_zone_vlan14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Infrastructure Zone - VLAN124</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79e051012f810110395aff1df699b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:16</sys_updated_on>
+            <value>security_infrastructure_zone_vlan124</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Zone</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ee051012f810110395aff1df699b63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:16</sys_updated_on>
+            <value>user_zone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Development Zone - New PSN Environment</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>170</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82e051012f810110395aff1df699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:16</sys_updated_on>
+            <value>application_development_zone_new_psn_environment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Zone - Exchange</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>180</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86e051012f810110395aff1df699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:17</sys_updated_on>
+            <value>user_zone_exchange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Staging Zone - New PSN Environment</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>190</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cae051012f810110395aff1df699b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:17</sys_updated_on>
+            <value>application_staging_zone_new_psn_environment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Zone - Orion</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dee051012f810110395aff1df699b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:17</sys_updated_on>
+            <value>user_zone_orion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Zone - XenApp</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>210</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dae051012f810110395aff1df699b64c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:17</sys_updated_on>
+            <value>application_zone_xenapp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User Zone - XenApp</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>220</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dee051012f810110395aff1df699b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:17</sys_updated_on>
+            <value>user_zone_xenapp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vault Zone - L1 Data (for other Vault zones, select "Other")</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>230</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16e051012f810110395aff1df699b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:17</sys_updated_on>
+            <value>vault_zone_l1_data_for_other_vault_zones_select_other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VM Host Zone</label>
+            <language>en</language>
+            <name>x_668891_server_1_u_bechtel_server_request</name>
+            <sequence>240</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-12 21:13:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ae051012f810110395aff1df699b65d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-12 21:13:18</sys_updated_on>
+            <value>vm_host_zone</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
